@@ -10,7 +10,6 @@ export default function App() {
   // const [filter, setFilter] = useLocalStorage('filter', '');
 
   const handleSubmit = (values, { resetForm }) => {
-    console.log(values);
     const existingContact = contacts.some(
       contact => contact.name === values.name
     );
